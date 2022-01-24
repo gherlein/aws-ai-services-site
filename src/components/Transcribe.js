@@ -181,7 +181,9 @@ class Transcribe extends Component {
                   currentComponent.setState({transcriptionInProgress: false});
                   let url = data.TranscriptionJob.Transcript.TranscriptFileUri
                   let signedKey = url.split('https://s3.amazonaws.com/aws-transcribe-us-east-1-prod/')            
+// eslint-disable-next-line no-unused-vars
                   let bucket = "aws-transcribe-us-east-1-prod"
+// eslint-disable-next-line no-unused-vars
                   let key = signedKey[1].split('?')[0]
                   currentComponent.setState({outputURL: url});
                   

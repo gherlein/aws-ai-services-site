@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+// eslint-disable-next-line no-unused-vars
 import { Menu } from 'semantic-ui-react'
 
 export default class NavBarHeader extends Component {

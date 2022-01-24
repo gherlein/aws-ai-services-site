@@ -133,6 +133,7 @@ class Comprehend extends Component {
 
 
     render() {
+// eslint-disable-next-line no-unused-vars
         let sentimentStatus, sentiment, sentimentScore, entities, entitiesStatus, syntax, syntaxStatus, keyPhrases, keyPhrasesStatus, containsPiiStatus, piiEntityLabels, detectPiiStatus, piiEntities;
         if(this.state.resultMessage !== ''){
           sentimentStatus = <p>{this.state.resultSentimentMessage}</p>
